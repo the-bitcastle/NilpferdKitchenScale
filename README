@@ -1,0 +1,31 @@
+
+## SCALE_CHARACTERISTIC = "0000ffb2-0000-1000-8000-00805f9b34fb"
+## Reading Scale Characteristic gives bytearray
+# ac4001000180ba0000000000000000000000a6e2
+# [ac]-[40]-[STATUS]-[Unit] [DATA]............ [a6]-[CRC]
+
+# #STATUS -->
+# 00 =  Postive value, unsure
+# 01 = Postive value, sure
+# 80 = negative value, unsure
+# 81 = negativ value, sure
+
+# #enum MeasurementUnit {
+#   GRAM = 0x00,
+#   UK_POUND_OUNCE = 0x20,
+#   MILLILITER_WATER = 0x10,
+#   UK_FLUID_OUNCE_WATER = 0x60,
+#   MILLILITER_MILK = 0x50,
+#   UK_FLUID_OUNCE_MILK = 0x70,
+#  
+# }
+
+# # UNIT -->
+# 00= gramm
+# 10=ml
+# 50=Milch ML
+# 20=lb:oz
+# 60=fl:oz
+# 70= Milch fl:oz
+
+

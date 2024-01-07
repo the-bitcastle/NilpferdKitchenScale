@@ -1,2 +1,4 @@
 # NilpferdKitchenScale
-"Reverse Engineering" my Nilpferd kichten scale to use the BLE without the app
+"Reverse Engineering" my Nilpferd kichten scale to use the BLE Feature without the app.
+
+## 
